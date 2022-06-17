@@ -2,8 +2,8 @@
   <div class="col-md-3 left-side">
     <ul >
       <div class="avatar">
-        <ul *ngFor="let c of data.data.categories; let i = index;">
-          <li><i class="glyphicon glyphicon-user"></i><a>{{c.name}}</a></li>
+        <ul *ngFor="let x of name ; let i = index;">
+          <li><i class="glyphicon glyphicon-user"></i><a>{{x.name}}</a></li>
         </ul>
       </div>
     </ul>
@@ -11,17 +11,17 @@
   </div>
   <div class="col-md-9">
     <ul class="mail-list">
-      <li *ngFor="let m of data.data.categories;let i = index;">
+      <li *ngFor="let m of contacts;let i = index;">
         <div class="avatar">
           <i class="glyphicon glyphicon-user"></i>
         </div>
         <div class="mail">
-          <h3>{{m.childs[i].title}}: {{m.childs[i].}}</h3>
-          <p>Tile: Sales Repre...</p>
-          <p>Hire Date: 10/5/1998</p>
-          <p>Address: 7 tôn thất thuyết</p>
-          <p>City: Hà Nội</p>
-          <p>Phone: 023012301</p>
+          <h3>{{m.name}}</h3>
+          <p>Tile: {{m.title}}</p>
+          <p>Hire Date: {{m.hiredate}}</p>
+          <p>Address: {{m.address}}</p>
+          <p>City: {{m.city}}</p>
+          <p>Phone: {{m.phone}}</p>
         </div>
       </li>
     </ul>

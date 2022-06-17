@@ -5,28 +5,54 @@
     "categories": [
       {
         "name": "Margaret",
+        "childs": [
+          {
+            "name": "Margaret"
+          },
+          ]
       },
       {
         "name": "Laura",
+        "childs": [
+          {
+            "name": "Laura"
+          },
+          ]
       },
       {
         "name": "Robert",
+        "childs": [
+          {
+            "name": "Robert"
+          },
+          ]
       },
       {
         "name": "Albert",
+        "childs": [
+          {
+            "name": "Albert"
+          },
+          ]
       },
       {
         "name": "Michale",
+        "childs": [
+          {
+            "name": "Michale"
+          },
+          ]
       },
     ],
     "mails": [
       {
-        "Title": "Sale Representative",
-        "Hire Date": "10/5/1996",
-        "Address": "7 Houndstooth Rd.",
-        "City": "London",
-        "Phone": "(71) 555-4444",
+        "title": "Sale Representative",
+        "hiredate": "10/5/1996",
+        "address": "7 Houndstooth Rd.",
+        "city": "London",
+        "phone": "(71) 555-4444",
         "name": "Michale Suyama",
+        "child": "Michale"
       },
     ]
   }
