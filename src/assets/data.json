@@ -1,0 +1,45 @@
+{
+  "status": 200,
+  "message": "Success",
+  "data": {
+    "categories": [
+      {
+        "name": "Favorites",
+        "childs": [
+          {
+            "name": "Inbox"
+          },
+          {
+            "name": "Sent items"
+          }
+        ]
+      },
+      {
+        "name": "John",
+        "childs": [
+          {
+            "name": "Inbox"
+          },
+          {
+            "name": "Sent items"
+          },
+          {
+            "name": "Outbox"
+          },
+          {
+            "name": "Draft"
+          },
+        ]
+      }
+    ],
+    "mails": [
+      {
+        "subject": "Demo Subject",
+        "content": "Content mail...",
+        "userName": "demo@gmail.com",
+        "category": "John",
+        "child": "Inbox"
+      },
+    ]
+  }
+}
