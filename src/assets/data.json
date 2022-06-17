@@ -1,0 +1,33 @@
+{
+  "status": 200,
+  "message": "Success",
+  "data": {
+    "categories": [
+      {
+        "name": "Margaret",
+      },
+      {
+        "name": "Laura",
+      },
+      {
+        "name": "Robert",
+      },
+      {
+        "name": "Albert",
+      },
+      {
+        "name": "Michale",
+      },
+    ],
+    "mails": [
+      {
+        "Title": "Sale Representative",
+        "Hire Date": "10/5/1996",
+        "Address": "7 Houndstooth Rd.",
+        "City": "London",
+        "Phone": "(71) 555-4444",
+        "name": "Michale Suyama",
+      },
+    ]
+  }
+}
