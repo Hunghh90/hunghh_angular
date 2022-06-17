@@ -1,7 +1,8 @@
 import {HttpClient, HttpParams} from "@angular/common/http";
-import {IWeather} from "../interfaces/weather.interface";
+import {Weather} from "../interfaces/thoitiet";
 import {Injectable} from "@angular/core";
-import {ICategory, IDataJSON} from "../interfaces/category.interface";
+
+import {ICategory} from "../interfaces/category.interface";
 
 
 @Injectable({
@@ -17,7 +18,7 @@ export class WeatherService {
     parameters = parameters.append('q',cityCode);
     parameters = parameters.append('appid',WeatherService.APPID);
     parameters = parameters.append('units','metric');
-    return this.httpClient.get<IWeather>(WeatherService.BASE_URL+"weather",
+    return this.httpClient.get<Weather>(WeatherService.BASE_URL+"weather",
       {
         params: parameters
       })
@@ -33,8 +34,9 @@ export class WeatherService {
       })
   }
 
+
   mailList(){
-    return this.httpClient.get<IDataJSON>('http://localhost:4200/assets/demodata.json');
+    return this.httpClient.get<IDBDatabase>('http://localhost:4200/assets/data.json');
   }
 }
 

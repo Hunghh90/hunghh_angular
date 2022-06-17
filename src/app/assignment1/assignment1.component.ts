@@ -1,7 +1,9 @@
 import {Component} from "@angular/core";
 import {IMail} from "../interfaces/mail.interface";
 import {ICategory} from "../interfaces/category.interface";
-import {WeatherService} from "../services/weather.service";
+import {Weather} from "../interfaces/thoitiet";
+import  {WeatherService} from "../service/weather.service";
+
 
 @Component({
   selector: 'app-assignment1',
@@ -11,14 +13,17 @@ export class Assignment1Component {
   mails: IMail[] = [];
   categories: ICategory[] = [];
 
-constructor(private weatherService: WeatherService) {
+constructor(private weatherService: Weather) {
 }
 
 ngOnInit(){
-  this.weatherService.mailList().subscribe(value=>{
+  this.weatherService.(.subscribe(value=>{
     this.categories = value.data.categories;
     this.mails = value.data.mails;
   })
+}
+ngOnInit(){
+  this.weatherService.
 }
 changeMails(category: string, child: string){
   var new_list: IMail[] = [];
