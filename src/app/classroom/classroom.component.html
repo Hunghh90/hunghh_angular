@@ -1,0 +1,12 @@
+<h1>{{className}}</h1>
+<button type="button"(click)="changeName()">Change</button>
+<h2>Hung</h2>
+<h2>1990</h2>
+<h2>Bac Kan</h2>
+<h2>0328473280</h2>
+<app-hunghh *ngFor="let b of hunghhAges;let i = index;"
+  [hunghhName]="hunghhNames[i]" 
+  [hunghhAge]="hunghhAges[i]"
+  [hunghhTelephone]="hunghhTelephones[0]">
+</app-hunghh>
+<!--<app-hunghh [hunghhName]="hunghhNames[1]" [hunghhAge]="hunghhAges[1]" [hunghhTelephone]="hunghhTelephones[1]"></app-hunghh>-->

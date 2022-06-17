@@ -1,0 +1,11 @@
+<div *ngIf="data">
+  <h2>{{data.name}}</h2>
+  <h3>{{data.main.temp}}<sup>o</sup>C</h3>
+  <h3>{{data.main.humidity}}%</h3>
+  <h3>{{data.wind.speed}}km/h</h3>
+  <img style="transform: translate(100px,-200px)" src="http://openweathermap.org/img/wn/{{data.weather[0].icon}}@2x.png"/>
+</div>
+<button type="button" (click)="hanoi()">Ha Noi</button>
+<button type="button" (click)="saigon()">Sai Gon</button>
+<button type="button" (click)="newyork()">New York</button>
+

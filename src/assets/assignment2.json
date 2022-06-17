@@ -1,0 +1,31 @@
+{
+  "status": 200,
+  "message": "Succes",
+  "data": {
+    "trangthai": [
+      {
+        "name": "To Do"
+      },
+      {
+        "name": "In Progress"
+      },
+      {
+        "name": "In Review"
+      },
+      {
+        "name": "Done"
+      },
+
+    ],
+    "danhsach": [
+      {
+        "name": "Task 1",
+        "noidung": "viec dang lam",
+        "trangthai": "Done"
+      },
+
+    ],
+  }
+
+
+}

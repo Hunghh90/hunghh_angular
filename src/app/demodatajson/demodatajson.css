@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+.container{
+  width: 1200px;
+  float: left;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+}
+.catelory{
+  width: calc(30% - 80px);
+  background-color: blue;
+}
+.catelories{
+  width: 100%;
+  text-align: left;
+}
+.emails{
+  width: calc(70% - 80px);
+  background-color: green;
+}

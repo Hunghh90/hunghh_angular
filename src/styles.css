@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+li{
+  list-style: none;
+  margin-top: 30px;
+  border: 1px solid gray;
+}
+.avatar{
+  float: left;
+}
+.avatar li{
+
+}
+.listassignment2{
+  background-color: gray;
+  width: calc(25% - 40px);
+  float: left;
+  height: 30px;
+  margin: 5px;
+  padding: 5px;
+  text-align:left;
+  font-size: 16px;
+}
+.task{
+  background-color: white;
+  margin: 20px;
+  margin-bottom: none;
+  padding: 5px;
+  border: 5px solid gray;
+}
+.listtask{
+  background-color: gray;
+}
+
